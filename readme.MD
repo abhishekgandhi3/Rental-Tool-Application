@@ -11,6 +11,8 @@ API documentation will be available at http://localhost:8080/swagger-ui/index.ht
 - Java 17
 - Maven 
 - MySQL
+- Swagger
+- Spring boot
 
 
 ## Installation and Setup
@@ -19,7 +21,7 @@ To run the Tool Rental Application locally:
 
 1. Clone the repository. <br>
 ```bash
-git clone <repository_url>
+git clone https://github.com/abhishekgandhi3/Rental-Tool-Application.git
 ```
 2. Build the project using Maven.
 ```bash
@@ -84,14 +86,3 @@ The application includes unit tests to validate its functionality. To run the te
 ```bash
 mvn test
 ```
-
-## Dependencies
-
-The Tool Rental Application relies on the following dependencies:
-
-- [Spring Boot](https://spring.io/projects/spring-boot)
-- [Spring Data JPA](https://spring.io/projects/spring-data-jpa)
-- [MySQL Connector](https://dev.mysql.com/downloads/connector/j/)
-- [Lombok](https://projectlombok.org/)
-- [Springdoc OpenAPI](https://springdoc.org/)
-- [Flyway](https://documentation.red-gate.com/flyway/flyway-cli-and-api/concepts/migrations)
